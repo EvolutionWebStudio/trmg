@@ -1,0 +1,1978 @@
+/*
+	HTML5 Reset :: style.css
+	----------------------------------------------------------
+	We have learned much from/been inspired by/taken code where offered from:
+	
+	Eric Meyer					:: http://ericmeyer.com
+	HTML5 Doctor				:: http://html5doctor.com
+	and the HTML5 Boilerplate	:: http://html5boilerplate.com
+	
+-------------------------------------------------------------------------------*/
+
+/* LEGENDA
+ * ----------------------------------------------------------------------------
+ * crvena za linkove : #b21f13
+ * plava za linkove: #69f
+ * 
+ * ----------------------------------------------------------------------------*/
+
+/* Let's default this puppy out
+-------------------------------------------------------------------------------*/
+
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}									
+
+article, aside, figure, footer, header, hgroup, nav, section {display: block;}
+
+/* Responsive images and other embedded objects
+   Note: keeping IMG here will cause problems if you're using foreground images as sprites.
+   If this default setting for images is causing issues, you might want to replace it with a .responsive class instead. */
+img,
+object,
+embed {max-width: 100%;}
+
+/* force a vertical scrollbar to prevent a jumpy page */
+html {overflow-y: scroll;}
+
+/* we use a lot of ULs that aren't bulleted. 
+	don't forget to restore the bullets within content. */
+ul {list-style: none;}
+
+blockquote, q {quotes: none;}
+
+blockquote:before, 
+blockquote:after, 
+q:before, 
+q:after {content: ''; content: none;}
+
+a {margin: 0; padding: 0; font-size: 100%; vertical-align: baseline; background: transparent;}
+
+del {text-decoration: line-through;}
+
+abbr[title], dfn[title] {border-bottom: 1px dotted #000; cursor: help;}
+
+/* tables still need cellspacing="0" in the markup */
+
+th {font-weight: bold; vertical-align: bottom;}
+td {font-weight: normal; vertical-align: top;}
+
+hr {display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0;}
+
+input, select {vertical-align: middle;}
+
+pre {
+	white-space: pre; /* CSS2 */
+	white-space: pre-wrap; /* CSS 2.1 */
+	white-space: pre-line; /* CSS 3 (and 2.1 as well, actually) */
+	word-wrap: break-word; /* IE */
+}
+
+input[type="radio"] {vertical-align: text-bottom;}
+input[type="checkbox"] {vertical-align: bottom; *vertical-align: baseline;}
+.ie6 input {vertical-align: text-bottom;}
+
+select, input, textarea {font: 99% sans-serif;}
+
+table {font-size: inherit; font: 100%;}
+ 
+/* Accessible focus treatment
+	people.opera.com/patrickl/experiments/keyboard/test */
+a:hover, a:active {outline: none;}
+
+small {font-size: 85%;}
+
+strong, th {font-weight: bold;}
+
+td, td img {vertical-align: top;} 
+
+/* Make sure sup and sub don't screw with your line-heights
+	gist.github.com/413930 */
+sub, sup {font-size: 75%; line-height: 0; position: relative;}
+sup {top: -0.5em;}
+sub {bottom: -0.25em;}
+
+/* standardize any monospaced elements */
+pre, code, kbd, samp {font-family: monospace, sans-serif;}
+
+/* hand cursor on clickable elements */
+.clickable, 
+input[type=button], 
+input[type=submit], 
+button {cursor: pointer;}
+
+/* Webkit browsers add a 2px margin outside the chrome of form elements */
+button, input, select, textarea {margin: 0;}
+
+/* make buttons play nice in IE */
+button {width: auto; overflow: visible;}
+ 
+/* scale images in IE7 more attractively */
+.ie7 img {-ms-interpolation-mode: bicubic;}
+
+/* prevent BG image flicker upon hover */
+.ie6 html {filter: expression(document.execCommand("BackgroundImageCache", false, true));}
+
+/* let's clear some floats */
+.clearfix:before, .clearfix:after { content: "\0020"; display: block; height: 0; overflow: hidden; }  
+.clearfix:after { clear: both; }  
+.clearfix { zoom: 1; }  
+
+
+
+/* Ok, this is where the fun starts.
+-------------------------------------------------------------------------------*/
+
+/* new Linux- and Windows-friendly sans-serif font stack: http://mky.be/fontstack */
+body {/*font: 13px arial, sans-serif;*/
+/*font-family: "Georgia", Verdana, Arial;*/}
+
+/* using local fonts? make sure to read up on Paul Irish's 
+	Bulletproof @font-face syntax: http://mky.be/font-face/bulletproof/ */
+
+/* we like off-black for text */
+body, select, input, textarea {color: #333;}
+
+a {color: #fff;text-decoration:none;}
+a:hover {color: #b21f13;}
+
+/* Custom text-selection colors (remove any text shadows: twitter.com/miketaylr/status/12228805301) */
+::-moz-selection{background: rgba(38,23,17,0.7); color: #fff; text-shadow: none;}
+::selection {background: rgba(38,23,17,0.7); color: #fff; text-shadow: none;} 
+
+/*	j.mp/webkit-tap-highlight-color */
+a:link {-webkit-tap-highlight-color: #fcd700;} 
+
+ins {background-color: #fcd700; color: #000; text-decoration: none;}
+mark {background-color: #fcd700; color: #000; font-style: italic; font-weight: bold;}
+
+
+.clear {
+	clear: both;
+}
+
+ /* Clearfix */
+ 
+ .clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+.float_right {
+	display:block;
+	float: right;
+}
+
+.float_left {
+	display:block;
+	float: left;
+}
+
+.center {
+    display: block;
+    margin: auto;    
+}
+
+.bold {
+    
+    font-weight: bold;
+}
+
+.tab_indent{
+    
+    text-indent: -30px;
+}
+
+.space_top {
+    margin-top: 15px;
+}
+
+/* Osnovna struktura i formatiranje */
+
+html {
+
+	background: url('../img/pozadina_braon.jpg')  #d7c39e;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:  "Georgia", Times, serif;
+}
+
+h1 {
+	
+	font-weight: normal;
+}
+
+body {
+	width: 920px;
+	margin: 0 auto;
+	/*padding: 80px 0;*/
+	
+	/*background: url('../img/pozadina-daske-gore.png') 10px 0 no-repeat,  url('../img/pozadina-daske-dole.png') 5px bottom no-repeat;*/
+	color: white;
+	/* "Myriad Pro",*/
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: 0 0 0 -140px;
+	padding: 50px 0;
+	
+	background: url('../img/pozadina-daske-gore.png') 10px 0 no-repeat,  url('../img/pozadina-daske-dole.png') 5px bottom no-repeat;
+	/*color: white;
+
+    font-family:   Helvetica, Verdana, Arial, sans-serif;*/
+}
+
+.wrapper_pomocna {
+    width: 700px;
+    margin: auto;
+    text-shadow: 2px 1px #333;
+    
+    font-size: 18px;
+}
+
+.bg_wrapper {
+	width: 100%;
+	height: 100%;
+
+	
+	background: url('../img/pozadina-daske.png') 10px 0 repeat-y;
+}
+
+.kadar {
+	width: 920px;
+	min-height: 500px;
+	margin: auto;
+	padding: 10px 30px;
+	
+	/* background: rgba(38,23,17,0.7); */
+	background: rgba(17, 6, 1, 0.6);
+}
+
+header{
+	width: 100%;
+	height: 55px;
+	font-size: 0.6em;
+	position:relative;
+	z-index: 5555;
+}
+
+#precice {
+	float: left;
+    height: 23px;
+    overflow: hidden;
+}
+
+	#precice li {
+		
+		display: inline-block;
+		padding: 0 5px;
+		margin: 0  0 10px 0;
+		/*border-right: 1px solid white;*/ 
+
+	}
+		#precice li:last-child {
+
+			border: none;
+		}
+		
+	#precice li:nth-child(4) { 
+		border: none;
+		padding: 0 1px;
+	}
+	
+	#precice li:nth-child(4) a {
+
+		 background: url(../img/ikonice/kamera.png) center center no-repeat;
+	}
+	
+	#precice li:nth-child(5) {
+		border: none;
+		padding: 0 1px;
+
+	}
+	
+	#precice li:nth-child(5) a {
+
+		 background: url(../img/ikonice/prognoza.png) center center no-repeat;
+	}
+	
+
+#social {
+	float: right;
+    height: 23px;
+    overflow: hidden;
+}
+
+#social li {
+	display: inline-block;
+	padding: 0 1px;
+	margin: 0  0 0 0;
+	border: none;
+}
+		
+#social li:nth-child(6) { 
+	border: none;
+	padding: 0 0 0 15px;
+}
+
+#social li:nth-child(6) a {
+
+	background: url(../img/ikonice/prijatelji.png) center center no-repeat;
+}
+	
+.vijesti_link {
+	
+	padding: 3px;
+	
+	background: #d8582d;
+	text-transform: uppercase;
+	vertical-align: middle;
+	line-height: 16px;
+	border-radius: 2px;
+}
+
+	.vijesti_link:hover {
+		
+		background-color: #721d1d;
+		color: white;
+	}
+
+/* NEWSLETTER */
+
+div.newsletter-signup {
+	position: fixed;
+	top: 150px;
+	right: 0;
+	z-index: 10;
+	
+	color: #333;
+	font-size: 14px;
+}
+
+div.newsletter-signup div.newsletter-button {
+	float: left;
+	width: 28px;
+	height: 120px;
+	overflow: hidden;
+	
+	background: #9C1A33;
+	cursor: pointer;
+}
+
+div.newsletter-signup div.newsletter-button:hover {
+	
+	background: #D40050;
+	cursor: pointer;
+}
+
+div.newsletter-signup div.newsletter-button span {
+	display: inline-block;
+	width: 120px;
+	height: 100%;
+   	-moz-transform: rotate(-90deg) translate(0, 100%);
+   	-moz-transform-origin: 0% 100%;
+   	-o-transform: rotate(-90deg) translate(0, 100%);
+   	-o-transform-origin: 0% 100%;
+   	-webkit-transform: rotate(-90deg) translate(0, 100%);
+   	-webkit-transform-origin: 0% 100%;
+   	transform: rotate(-90deg) translate(0, 100%);
+   	transform-origin: 0% 100%;
+   	writing-mode: bt-rl;
+	filter: flipV flipH;
+	
+	color: white;
+	font-size: 12px;
+	line-height: 28px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+div.newsletter-signup div.newsletter-form {
+	display:none;
+	float: right;
+	width: 180px;
+	height: 150px;
+	padding: 10px;
+	
+	background: #FFF5DB;
+	border: 1px solid #ccc;
+	font-size: 12px;
+
+}
+
+div.newsletter-signup div.newsletter-form form {
+	width: 180px;
+}
+
+div.newsletter-signup div.newsletter-form input[type="email"]{
+	width: 180px;
+	padding: 3px 0;
+}
+
+div.newsletter-signup div.newsletter-form input[type="submit"]{
+	width: 80px;
+	margin: 5px auto;
+}
+
+div.newsletter-signup div.newsletter-form p.newsletter-opis {
+	display: block;
+	width: 190px;
+	margin: 0 0 10px 0;
+}
+
+
+	
+/* NAVIGACIJA */
+
+.main_menu {
+	width: 100%;
+	height: 32px;
+
+	background: rgba(90,90,90,0.7);
+}
+
+.navigacija {
+	
+	margin: 0;
+	position: relative;
+
+	font-size: 11px;
+	text-transform: uppercase;	
+}	
+	
+.navigacija > li {
+	display: inline-block;
+	float: left;
+	width: 130px;
+	position: relative;
+
+	
+	text-align: center;
+	
+}
+
+.navigacija-lijevo {
+	float: left;
+
+}
+
+.navigacija-desno {
+	float: right;
+
+
+}
+
+.navigacija > li a {
+		display: inline-block;
+		width: 130px;
+		
+		padding: 5px 0;
+
+}
+
+.navigacija > li >a {
+		margin: 7px 0 0;
+		font-family: "Georgia", Times, serif;
+}
+
+ 	.navigacija li a:hover {
+		/* background: rgba(9,7,130,0.9); */
+		background: transparent;
+		color: #69f;
+	} 
+	
+	.navigacija > li ul {
+		width: 130px;
+		display: none;
+		position: absolute;
+		
+		
+		-moz-border-radius-bottomleft: 10px;
+		border-bottom-left-radius: 10px;
+		-moz-border-radius-bottomright: 10px;
+		border-bottom-right-radius: 10px;
+		/* background: rgba(32,28,170,0.9); */
+		background: rgba(0,54,103,0.9);
+		
+		font-size: 10px;
+	}
+	
+		.navigacija > li:hover ul {
+			display: block;
+			/*clear: both;*/
+
+		}
+		
+		.navigacija > li:hover  > a {
+			
+		
+			-moz-border-radius-topleft: 10px;
+			border-top-left-radius: 10px;
+			-moz-border-radius-topright: 10px;
+			border-top-right-radius: 10px;
+			background: rgba(0,54,103,0.9);
+			color: #69f;
+		}
+	
+		.navigacija > li ul li {
+		
+		text-transform: none;
+		}
+	
+
+	
+#logo {
+	background: url('../img/logo.png') top center no-repeat;
+	position: absolute;
+	left: 43.5%;
+	display: block;
+	height: 98px;
+	width: 121px;
+	
+	 float: left; 
+	
+	text-indent: -9999px;
+}
+	
+.sadrzaj {
+	width: 100%;
+	clear: both;
+	margin: -32px 0 20px 0;
+}
+
+.prezentacija {
+	width: 910px;
+	margin: auto;
+}
+
+.ponude {
+	width: 920px;
+	margin: auto;
+	
+	font-size: 12px;
+	background: rgba(53, 28, 10, 0.7);
+}
+
+.read_more {
+	display: inline;
+	
+	font-weight: bold;
+	font-size: 14px;
+	color: #F05A24;
+	
+}
+
+.ponude > div{
+	width: 280px;
+	height: 155;
+	padding: 10px;
+}
+
+	.ponude h1 {
+		font-size: 17px;
+		letter-spacing: 1px;
+		padding: 0 0 5px 0;
+		font-weight: normal!important;
+	}
+    .ponude h1 span.highlight {
+    	/*width: 100%;*/
+    	display: inline-block;
+    	background: #B21F13;
+    	padding: 3px;
+    	text-align: center; 
+    	
+    }
+    
+    .ponude p {
+    	/*font-family: helvetica, arial, sans-serif;*/
+    	font-size: 11px;
+	}
+	
+	.ponude div {
+		float: left;
+	}
+
+.ponuda_lijevo {
+
+	float: left;
+	background: rgba(3,3,3,0.5);
+}
+.ponuda_lijevo .crveno{
+
+	background-color: #c0272d;
+	margin: -10px;
+	margin-bottom: 15px;
+}
+.ponuda_lijevo .crveno h1{
+
+	padding: 10px;
+}
+
+.ponuda_lijevo a.rezervacija-mail {
+
+	font-size: 16px;
+	color: #f05a24;
+}
+
+
+.ponuda_lijevo a.rezervacija-mail:hover {
+
+	color: #b21f13;
+}
+.ponuda_lijevo p.number {
+
+	font-size: 16px;
+	color: #f05a24;
+}
+
+.ponuda_desno h1{
+	line-height: 17px;
+}
+.rezervacija-widget-wrapper {
+	position: absolute;
+	top: 350px;
+	left: 5px;
+	width: 282px;
+	height: 100px;
+	z-index: 40;
+}
+
+.rezervacija-widget-button {
+	display: inline-block;
+	width: 100px;
+	height: 20px;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	padding: 5px;
+	z-index: 50;
+	
+	background-color: #d8582d;
+	color: white;
+	border-radius: 3px;
+	line-height: 20px;
+	vertical-align: middle;
+	cursor: pointer;
+	text-align: center;
+	font-size: 14px;
+}
+
+	.rezervacija-widget-button:hover {
+		
+		background-color: #721d1d;
+	}
+
+.rezervacija-widget-info {
+	display: none;
+	/*width: 300px;*/
+	height: 95px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 0px 5px;
+	
+	font-size: 12px;
+	background: rgba(53, 28, 10, 0.9);
+	border-radius: 3px;
+}
+
+.rezervacija-widget-info #submitter {
+	width: 110px;
+	height: 30px;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	
+	background-color: #d8582d;
+	color: white;
+	border-radius: 3px;
+	line-height: 20px;
+	vertical-align: middle;
+    font-size: 14px;
+} 
+
+	.rezervacija-widget-info #submitter:hover {
+		
+		background-color: #721d1d;
+	}
+	
+.booking_widget {
+	
+	width: 280px;
+	margin: 10px 0 0 0;
+}
+
+.booking_widget td {
+	vertical-align: middle;
+	padding: 1px;
+}
+
+#arrival {
+	width: 70px;
+	
+}
+
+#nights {
+	width: 15px;
+	
+}
+
+#adults {
+	width: 15px;
+	
+}
+
+#children {
+	width: 15px;
+	
+}
+
+#submitter {
+	width: 68px;
+	height: 20px;
+	
+	background-color: #d8582d;
+	color: white;
+	border: none;
+    line-height: 20px;
+    vertical-align: middle;
+    font-size: 11px;
+} 
+
+	#submitter:hover {
+		
+		
+		background-color: #721d1d;
+	} 
+
+.ponuda_sredina h3{
+    font-size: 16px ;
+    
+}
+.ponuda_sredina h1{
+	font-size: 17px;
+}
+.ponuda_sredina {
+	margin: 0 10px;
+	float: left;
+    
+    font-size: 12px ;
+}
+
+.ponuda_desno {
+
+	float: right;
+    
+    text-align: right;
+}
+.ponuda_desno h3{
+    padding-right: 5px;
+    
+}
+
+    
+    
+
+
+
+/* FOOTER */
+
+footer {
+	
+	margin: 20px auto 5px;
+	
+	font-size: 0.7em;
+	text-align: center;
+}
+
+footer ul {
+	padding: 0 0 5px 0;
+}
+
+footer ul li {
+	display: inline;
+	padding: 0 5px;
+	
+	color: white;
+	border-left: 1px solid white;
+
+}
+	
+	footer ul li:first-child {
+
+	border-left: none;
+
+	}
+
+footer .info {
+    color: #ccc;
+}
+
+/* Stil Clanka */
+
+.clanak {
+	width: 100%;
+	
+	line-height: 16px;
+	background: white; 
+	color: #333;
+}
+
+	.clanak a {
+
+		color: #b21f13;
+	}
+	
+		.clanak a:hover {
+
+		text-decoration: underline;
+		}
+
+.wrapper_clanak {
+	padding: 10px;
+
+
+}
+
+.clanak div.koliba_dani {
+	width: 100%;
+}
+
+.clanak div.koliba_dani a {
+	display: inline-block;
+	padding: 0 0 0 10px;
+	text-transform: uppercase;
+}
+
+.slika_iznad_clanka {
+	width: 100%;
+	height: 250px;
+	position: relative;
+	margin: 0;
+	
+	background: white;
+	/*overflow: hidden;*/
+}
+
+.slika_iznad_clanka > img{
+	width: 100%;
+	height: 100%;
+	
+	z-index: 1;
+	
+}
+
+.slika_iznad_clanka div.koliba_promo{
+	position: absolute;
+	
+	left: 0;
+	top: 0;
+	z-index: 0;
+	width: 920px;
+	height: 250px;
+}
+
+	.slika_iznad_clanka div.koliba_promo > img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 2;
+		display: none;
+	}
+	
+	.clanak div.linkovi_koliba a:hover {
+		color: #361e0e;
+		text-decoration: none;
+	
+	}
+
+.natpis { 
+	width: 300px; 
+	height: 50px;
+	padding: 5px 10px;
+	position: absolute;
+	top: 90%;
+	left: 33%;
+	
+	background: white;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+	border-radius: 25px;
+	font-size: 0.8em;
+	font-family: "Georgia", Times, serif;
+	text-align: center;
+	color: #b21f13;
+	z-index: 160;
+} 
+
+	div.natpis a:hover {
+		color: #f29400;
+		text-decoration: none;
+	}
+
+.slika_pored_clanka {
+	width: 185px;
+	height: 295px;
+	float: left;
+	margin-right: 20px;
+	
+	background: white;
+}
+
+	.slika_pored_clanka img{
+	width: 100%;
+	height: 100%;
+	}
+	
+.sadrzaj_clanka {
+	width: 500px;
+	float: left;
+	margin: 0 5px;
+	padding-top: 50px;
+	
+	background: white;
+	/*font-family: arial, sans-serif;*/
+	font-size: 12px;
+}
+
+.sadrzaj_clanka h2 {
+	margin: 0 0 20px 0;
+	
+	text-align: center;
+	line-height: 25px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.sadrzaj_clanka .link_crveni {
+
+	font-style: italic;
+}
+
+.sadrzaj_clanka .link_plavi {
+
+	font-style: italic;
+	color: #69f;
+}
+
+.sadrzaj_clanka ul.download li >span.pdf{
+	
+	width: 25px;
+	height: 25px;
+	display:inline-block;
+	background: url('../img/ikonice/pdf.png') center center no-repeat;
+}
+
+.sadrzaj_clanka ul.download a{
+	
+	font-style: italic;
+	color: #333;
+}
+
+	
+.sadrzaj_clanka div.centriran_tekst {
+	text-align: center;
+}
+
+.sadrzaj_clanka ul.obojena_lista li {
+	
+	text-indent: 15px;
+	line-height: 18px;
+}
+
+.sadrzaj_clanka ul.bullet_crveni li > span {
+	display:inline-block;
+	background: url('../img/bullet-crveni.jpg') center center no-repeat;
+}
+
+.sadrzaj_clanka ul.bullet_zeleni li > span {
+	display:inline-block;
+	background: url('../img/bullet-zeleni.jpg') center center no-repeat;
+}
+
+.sadrzaj_clanka ul.bullet_tamno_plavi li > span {
+	display:inline-block;
+	background: url('../img/bullet-tamno-plavi.jpg') center center no-repeat;
+}
+	
+.sadrzaj_clanka ul.bullet_svijetlo_plavi li > span {
+	display:inline-block;
+	background: url('../img/bullet-svijetlo-plavi.jpg') center center no-repeat;
+}
+
+.sadrzaj_clanka ul.bullet_narandzasti li > span {
+	display:inline-block;
+	background: url('../img/bullet-narandzasti.jpg') center center no-repeat;
+}
+
+.sadrzaj_clanka ul.bullet_svijetlo_narandzasti li > span {
+	display:inline-block;
+	background: url('../img/bullet-svijetlo-narandzasti.jpg') center center no-repeat;
+}
+
+.sadrzaj_clanka p.ponude_cijena {
+	padding: 5px 0;
+	margin: 10px 0;
+	
+	font-weight: bold;
+	text-align: center;
+	font-size: 12px;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+
+
+.sadrzaj_clanka ul.termag_prijatelji{
+	padding: 0 0 0 30px;
+	
+	list-style: circle;
+}
+
+.sadrzaj_clanka ul.termag_prijatelji li{
+	line-height: 22px;
+}
+
+.sadrzaj_clanka ul.termag_prijatelji a{
+	color: #333;
+}
+
+
+.podmeni {
+	width: 160px;
+	float: right;
+	margin: 80px 0 0 3px;
+	padding: 0 0 0 20px;
+	
+	background: white;
+	/*font-family: Verdana, Arial;*/
+	font-size: 12px;
+	text-transform: capitalize;
+	line-height: 20px; 
+}
+
+	.podmeni a {
+
+		text-decoration: none;
+		color: #333;
+	}
+		
+		.podmeni a:hover {
+				
+			color: #b21f13;
+			text-decoration: none;
+		}
+
+		.podmeni li.active {
+				
+			
+			font-style: italic;
+			text-transform:capitalize;
+			text-indent: 5px;
+		}
+
+
+
+/* VIJESTI */
+
+.vijesti {
+	width: 920px;
+	min-height: 600px;
+	padding: 0px 0 0 0px;
+	
+	line-height: 16px;
+	background: white; 
+	color: #333;
+}
+
+	.vijesti a {
+		color: #b21f13;
+	}
+	
+		.vijesti a:hover {
+
+		text-decoration: underline;
+		}
+
+div.vijesti_banner{
+	width: 920px;
+	height: 250px;
+	margin: 0 0 10px 0;
+	
+	background: url('../media/images/vijesti-gore.jpg') left center no-repeat;
+	
+}
+
+.vijesti_wrapper {
+	width: 600px;
+	float: left;
+	margin: 0px 5px 0 30px;
+	
+	background: white;
+	/*font-family: arial, sans-serif;*/
+	font-size: 12px;
+}
+
+.vijesti_wrapper h2.vijesti_naslov {
+	
+	margin: 0;
+	
+	text-align: left;
+	line-height: 25px;
+	font-size: 20px;
+	font-weight: normal;
+	color: #333;
+}
+
+.vijesti_wrapper h2.vijesti_naslov a {
+	
+	color: #333;
+}
+
+.vijesti_wrapper h2.vijesti_naslov a:hover {
+	
+	color: #000;
+	text-decoration: none;
+}
+
+.vijesti_wrapper h5.vijesti_info { 
+	
+	margin: 0 0 15px 0;
+	
+	color: #aaa;
+	font-style: italic;
+	font-weight: normal;
+}
+
+.sadrzaj_vijesti {
+	margin: 30px 0;
+}
+
+.arhiva_vijesti{
+	padding: 30px 0 20px 0;
+}
+
+.arhiva_vijesti ul{
+	list-style: none;
+}
+
+.arhiva_vijesti a{
+	font-size: 14px;
+	color: #333;
+	line-height: 22px;
+}
+
+	.arhiva_vijesti a:hover{
+		color: #b21f13;
+		text-decoration: none;
+	}
+
+.vijesti_linkovi {
+	width: 220px;
+	float: right;
+	margin: 30px 0 0 3px;
+	
+	
+	background: white;
+	/*font-family: Verdana, Arial;*/
+	font-size: 12px;
+	text-transform: capitalize;
+	line-height: 20px; 
+	
+	
+}
+
+.vijesti_linkovi ul {
+	margin: 15px 0 20px 0;
+	padding: 0 0 0 15px;
+	
+	border-left: 1px solid #ccc;
+}
+
+.vijesti_linkovi h3 {
+
+		font-size: 14px;
+		
+	}
+
+	.vijesti_linkovi a {
+
+		text-decoration: none;
+		color: #333;
+	}
+		
+		.vijesti_linkovi a:hover {
+				
+			color: #b21f13;
+			text-decoration: none;
+		}
+	
+	.vijesti_linkovi > a {
+
+		padding: 0 0 0 17px;
+	}
+
+		.vijesti_linkovi li.active {
+				
+			
+			font-style: italic;
+			text-transform:capitalize;
+			text-indent: 5px;
+		}
+
+ul.yiiPager {
+	display: block;
+	margin: 5px auto;
+	padding: 10px;
+}
+/*KAMERA*/
+.vremenska_prognoza {
+    width:100%;
+    
+}
+.vremenska_prognoza td {
+    margin: 10px;
+    padding: 10px;
+    min-width: 24%;
+    
+    border:1px solid transparent;
+    background: #fff5db;
+    background: rgba(255, 245, 219, 0.8);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #333;
+}
+/* FORMA */
+
+
+.forma_wrapper {
+	width: 500px;
+	margin: 15px 0;
+}
+
+div.ui-datepicker{
+	font-size:12px;
+}
+
+.dio_forme {
+	margin-top: 15px;
+	padding: 10px;
+	
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	background: #fff1d8;
+}
+
+.dio_forme table {
+	margin-bottom: 15px;
+}
+
+.dio_forme td {
+	padding: 2px 5px;
+	/*text-align: left;*/
+}
+
+.half-width {
+	width: 50%;
+	text-align: right;
+}
+
+.full-width {
+	width: 100%;
+}
+
+.half-width div {
+	display: inline-block;
+	padding: 2px 5px;
+}
+
+.dio_forme td.submit {
+	width: auto;
+	
+	vertical-align: bottom;
+}
+
+.dio_forme textarea {
+	width: 460px;
+	height: 150px;
+	resize: none;
+	padding: 2px;
+}
+.dio_forme input[type="text"] {
+	width: 130px;
+	padding: 2px;
+}
+
+.dio_forme div.forma_header {
+	margin-bottom: 10px;
+}
+
+.dio_forme p.naslov {
+	font-weight: bold;
+	font-size: 12px;
+	font-style: italic;
+}
+
+.dio_forme p.napomena {
+
+	font-size: 10px;
+	font-style: italic;
+}
+
+/* Cjenovnik */
+
+.cjenovnik_wrapper {
+	width: 850px;
+    margin: auto;
+    padding: 90px 0 0 0;
+    
+    
+}
+.tbl_cjenovnik {
+    width: 100%;
+    /*font-family:  Arial, sans-serif;*/
+    font-size: 14px;
+}
+.tbl_cjenovnik tr td {
+    padding: 1px;
+}
+    .tbl_cjenovnik tr td span {
+        display: block;
+        padding: 5px 10px;
+        
+        background: rgba(0,54,103,0.7);
+        text-align: center;
+    }
+    .tbl_cjenovnik.tabela1 tr:nth-child(4n+2) td span,
+    .tbl_cjenovnik.tabela1 tr:nth-child(4n+3) td span {
+        background: rgba(0,80,152,0.7);
+    }
+    
+    .tabela1 tr:nth-child(odd) {
+        border-bottom: 2px solid transparent;
+    }
+    .tabela2 tr:nth-child(odd) {
+        border-bottom: 2px solid transparent;
+    }
+    .tbl_cjenovnik span.table_caption {
+        font-weight: bold;
+        font-size: 16px;
+    }
+.cjenovnik_wrapper td.kolona {
+    width: 250px;
+}
+.cjenovnik_wrapper h2 {
+    width:  100%;
+    padding: 5px 0 20px 0;
+    
+    text-align: center;
+}
+
+.cjenovnik_wrapper div.cjenovnik_tekst {
+    padding: 20px;
+    
+    /*font-family: Arial, sans-serif;*/
+    font-size: 14px;
+}   
+ 
+.cjenovnik_wrapper div.cjenovnik_tekst ul li {
+   display: block;
+    text-indent: -9px;
+}   
+
+.heading_cjenovnik {
+    
+    font-size: 18px;
+}
+
+.tabela1 {
+    margin-bottom: 20px;
+}
+
+.tabela3 {
+    margin-top: 20px;
+}
+.tabela2 tr td span {
+    background-color: transparent;
+    color: #333;
+}
+.tabela2 td{
+    background-color: #fff5db ;
+}
+.tabela2 tr:first-child td:first-child {
+    background: transparent;
+}
+
+.cjenovnik-napomena {
+	
+	font-size: 12px;
+}
+
+/* Vremenska prognoza */
+
+.vremenska_prognoza {
+    
+}
+.vrijeme_danas {
+    width: 100%;
+    
+}
+
+    .vrijeme_danas div.temperatura {
+        width: 200px;
+        padding: 0 25px;
+        
+    }
+    
+    .vrijeme_danas div.ostali_uslovi {
+        width: 200px;
+        padding: 20px 25px 0;
+    }
+    
+    .vrijeme_danas div.temperatura p.trenutna_temperatura {
+        width: 100px;
+        height: 35px;
+        padding: 20px 0 0;
+        font-size: 35px;
+        font-family: "Georgia", Times, sans-serif;
+        
+        overflow: hidden;
+    }
+
+.vrijeme_narednih_dana {
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0 0;
+    border-top: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+    
+.vrijeme_narednih_dana table {
+    width: 100%;
+    
+    text-align: center;
+}
+
+.vrijeme_narednih_dana div.dan {
+    
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.image_holder_veliki {
+    width: 100px;
+   
+    padding: 5px 0;
+    margin: auto;
+    display: block;
+    
+    vertical-align: middle;
+    
+}
+
+.image_holder_mali {
+    width: 50px;
+    height: 60px;
+    padding: 5px 0;
+    margin: auto;
+    display: block;
+    
+    vertical-align: middle;
+}
+
+/* WEB CAMERA */
+
+.web_camera_wrapper {
+	width: 880px;
+	padding: 30px 20px 20px;
+	min-height: 500px;
+	
+	background: #fff;
+	color: #333;
+	font-size: 14px;
+}
+
+.web_camera {
+	width: 880px;
+}
+
+.web_camera img.kamera {
+	width: 100%;
+	padding: 5px 0;
+}
+
+.web_camera_clanak p{
+	width: 100%;
+	padding: 5px 0;
+	
+	text-align: right;
+}
+
+.web_camera_clanak span.webmasters_otvori {
+	margin: 0 5px 0 0;
+}
+
+.camera_error {
+	width: 360px;
+	padding: 20px;
+	margin: 150px auto 0;
+	
+	border: 1px solid #333;
+	border-radius: 5px;
+	text-align: center;
+	
+}
+
+/*Virtual*/
+
+.virtual_tour_wrapper {
+
+  
+    z-index: 0;
+}
+
+.virtual_tour_wrapper body #flashcontent {
+    width: 920px;
+    height: 640px;
+    margin: 0;
+    padding: 0;
+    z-index: 0;  
+}
+
+/* Rezervacije */
+
+.rezervacija_wrapper {
+    width: 920px;
+    
+    /*font-family: Helvetica, Verdana, Arial, sans-serif;*/
+}
+
+.rezervacija_wrapper >table {
+    width: 920px;
+    
+    margin-top: 80px;
+    
+}
+
+.rezervacija_wrapper table .left_naslov {
+    width: 255px;
+    padding: 10px;
+    margin-top: 10px;
+    
+    background:  #00467F;
+    border-radius: 5px;
+    text-align: right;
+    
+}
+
+.rezervacija_wrapper table .kalendar {
+    width:366px;
+    height: 400px;
+    margin: 0 2px;
+    
+    background:  #FFF5DB;
+    border-radius: 5px;
+    color: #333;
+}
+
+
+.rezervacija_wrapper table .right_naslov {
+    width: 255px;
+    padding: 10px;
+    margin-top: 10px;
+    
+    background:  #00467F;
+    border-radius: 5px;
+    text-align: left;
+   
+}
+
+.rezervacija_wrapper table .opcija {
+    width: 275px;
+    height: 60px;
+    margin-top: 2px;
+    
+    background:  #FFF5DB;
+    border-radius: 7px;
+    cursor: pointer;
+}
+    .rezervacija_wrapper table .opcija:hover,
+    .rezervacija_wrapper table .opcija_active {
+        background: #C7B299;
+    }
+    
+    .rezervacija_wrapper table .right {
+        float: right;
+        
+    }
+    
+    .rezervacija_wrapper table .left {
+        float: left;
+        
+    }
+    
+    .rezervacija_wrapper table .opcija div.right_bullet {
+        width:  25px;
+        height: 100%;
+        
+        background: #534741 url('../img/rezervacija_ikonice/trougao-nazad.png') center center no-repeat;
+        border-radius: 0 5px 5px 0;
+    }
+    
+    .rezervacija_wrapper table .opcija div.left_bullet {
+        width:  25px;
+        height: 100%;
+        
+        background: #534741 url('../img/rezervacija_ikonice/trougao-naprijed.png') center center no-repeat;
+        border-radius: 5px 0 0 5px;
+    }
+    
+    .rezervacija_wrapper table .opcija div.slika {
+        width:  60px;
+        height: 60px;
+        
+        background: #888;
+    }
+    
+    .rezervacija_wrapper table .opcija div.tekst {
+        width:  170px;
+        height: 40px;
+        padding: 10px; 
+
+    }
+    
+.rezervacija_wrapper table div.tipovi_smjestaja {
+    padding: 10px;
+    
+}
+
+.rezervacija_wrapper table div.tipovi_smjestaja div.tip {
+        width:  80px;
+        margin: 0 2px ;
+        padding: 5px 0;
+
+        border-radius: 5px;
+        text-align: center;
+        font-size: 12px;
+    }
+    
+    .rezervacija_wrapper table div.tipovi_smjestaja div.tip:hover,
+    .rezervacija_wrapper table div.tipovi_smjestaja div.tip_active {
+
+        background: rgba(0,54,103,0.7);
+    }
+
+.rezervacija_wrapper p {
+
+        font-size: 12px;
+        color: #333;
+        font-weight: bold;
+    }
+    
+.rezervacija_wrapper p span {
+        display: block;
+        font-size: 10px;
+        color: #555;
+        font-weight: normal;
+    }
+    
+    .rezervacija_wrapper .left_opcija p {
+        
+        text-align: right;
+    }
+    
+    .rezervacija_wrapper .right_opcija p {
+        
+        text-align: left;
+    }
+
+.rezervacija_wrapper iframe.rezervacija_frame {
+    width: 920px;
+    height: 1000px;
+    margin-top: 32px;
+}
+
+/* Jezici */
+
+ul.languages{
+    height: 20px;
+    margin-right: 30px;
+    
+}
+
+ul.social li ul li{
+	border: none;
+    
+}
+
+.ikonica {
+    width: 16px;
+    height: 14px;
+    display: block;
+    
+    border: 1px solid transparent;
+    text-indent: -9999px;
+    
+}
+    
+    a.ikonica:hover {
+        border: 1px solid #ccc;
+        border-radius: 2px;
+    }
+
+.serbian_flag {
+    
+    background: url(../img/zastave_ikonice/Bosnia-Flag.png) center center no-repeat;
+}
+
+.english_flag {
+    
+    background: url(../img/zastave_ikonice/United-Kingdom-Flag.png) center center no-repeat;
+}
+
+.russian_flag {
+    background: url(../img/zastave_ikonice/Russia-Flag.png) center center no-repeat;
+}
+
+.facebook_icon {
+    background: url(../img/social-ikonice/facebook-icon.png) center center no-repeat;
+}
+
+.twitter_icon {
+    background: url(../img/social-ikonice/twitter-icon.png) center center no-repeat;
+}
+
+.youtube_icon {
+    background: url(../img/social-ikonice/youtube-icon.png) center center no-repeat;
+}
+
+/* admin panel */
+
+.grid-view table,
+table.detail-view{
+    width: 880px !important; 
+    color: #333;
+}
+
+html.admin .sadrzaj { 
+    margin-top: 30px;
+    
+}
+
+/* LOGIN FORMA */
+
+.login_forma {
+	width: 300px;
+
+	margin: 150px auto 0;
+	padding: 10px;
+	
+	border-radius: 5px;
+	border: 1px solid #888;
+}
+
+
+.login_forma h1{
+	
+	text-align: center;
+}
+
+input[type="submit"] {
+	display: block;
+	padding: 5px 3px;	
+	margin: auto;
+}
+
+.error_message {
+	width:800px;
+	margin: 150px auto 0;
+	padding: 10px;
+	
+	border-radius: 5px;
+	border: 1px solid #c00;
+	text-align: center;
+}
+
+.error_message h2{
+	display: block;
+	margin: 0 0 15px 0;
+}
+
+/* POPBOX */
+
+.popbox_fade {
+	display: none;
+	position:fixed;
+	width: 100%;
+	height: 100%;
+	
+	top: 0;
+	left: 0;
+	z-index: 6666;
+	
+	background: #000;
+	-moz-opacity: 0.8;
+	opacity: 0.8;
+}
+
+.popbox {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index: 6667;
+}
+
+/* WEBMASTERS */
+
+.embed_code_popbox {
+	display: none;
+	width: 390px;
+	height: 430px;
+	margin-left: -200px;
+	margin-top: -215px;
+	padding: 5px;
+	
+	
+	background: rgba(17, 6, 1, 0.7);
+	color: #fff;
+	border-radius: 5px;
+	border: 1px solid #222;
+	font-size: 14px;
+}
+
+.embed_code_popbox p{
+	padding: 5px;
+
+}
+
+.dugme {
+	display: inline-block;
+	padding: 3px;
+	
+	font-weight: bold;
+	background: #d8582d;
+	border-radius: 3px;
+	color: #fff;
+}
+
+	.dugme:hover {
+		cursor: pointer;
+		background:  #721d1d;
+	}
+
+.webmasters_zatvori {
+	width: 70px;
+	margin: 5px 160px;
+	
+	font-weight: normal;
+	text-align: center;
+}
+
+
+textarea.embedding_code{
+	/*display: block;*/
+	width:380px;
+	height: 115px;
+	margin-top: 0px;
+	padding: 5px;
+	resize: none;
+	
+	background: #fff;
+	border-radius: 3px;
+	border: none; 
+	color: #333;
+}
+
+table.embed_code_podesavanja {
+	width: 300px;
+	margin: 0 auto;
+	
+	text-align: center;
+	
+	
+}
+
+table.embed_code_podesavanja td {
+	padding: 1px;
+}
+
+table.embed_code_podesavanja th {
+	padding: 5px 0;
+	
+	text-align: center;
+}
+
+table.embed_code_podesavanja input[type="text"] {
+	width: 70px;
+	
+	text-align: left;
+	font-size: 12px;
+}
+
+table.embed_code_podesavanja input[type="radio"] {
+	margin: 3px;
+	
+}
+
+table.embed_code_podesavanja span.generate_podesavanja {
+	margin: 10px auto;
+	
+	font-weight: normal;
+	text-align: center;
+}
+
+.form_error {
+	color: #cc0000;
+	font-weight: bold;
+}
+
+/* Print styles!
+-------------------------------------------------------------------------------*/
+@media print {
+
+
+
+}
+
+
+/* Media queries!
+-------------------------------------------------------------------------------*/
+
+/* Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+@media screen and (max-device-width: 480px) {
+	
+		
+}
+
+@media all and (orientation: portrait) {
+	
+}
+
+@media all and (orientation: landscape) {
+	
+}
+

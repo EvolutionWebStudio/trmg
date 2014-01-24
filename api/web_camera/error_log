@@ -1,0 +1,133 @@
+[13-Jan-2012 12:04:50] PHP Warning:  include_once(protected/config/osnovna_podesavanja.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:04:50] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening 'protected/config/osnovna_podesavanja.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:04:50] PHP Fatal error:  Using $this when not in object context in /home/termag/public_html/api/web_camera/index.php on line 2
+[13-Jan-2012 12:06:26] PHP Warning:  include_once(/protected/config/osnovna_podesavanja.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:06:26] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '/protected/config/osnovna_podesavanja.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:06:26] PHP Fatal error:  Using $this when not in object context in /home/termag/public_html/api/web_camera/index.php on line 2
+[13-Jan-2012 12:06:28] PHP Warning:  include_once(/protected/config/osnovna_podesavanja.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:06:28] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '/protected/config/osnovna_podesavanja.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:06:28] PHP Fatal error:  Using $this when not in object context in /home/termag/public_html/api/web_camera/index.php on line 2
+[13-Jan-2012 12:06:29] PHP Warning:  include_once(/protected/config/osnovna_podesavanja.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:06:29] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '/protected/config/osnovna_podesavanja.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:06:29] PHP Fatal error:  Using $this when not in object context in /home/termag/public_html/api/web_camera/index.php on line 2
+[13-Jan-2012 12:06:31] PHP Warning:  include_once(/protected/config/osnovna_podesavanja.php) [<a href='function.include-once'>function.include-once</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:06:31] PHP Warning:  include_once() [<a href='function.include'>function.include</a>]: Failed opening '/protected/config/osnovna_podesavanja.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termag/public_html/api/web_camera/index.php on line 1
+[13-Jan-2012 12:06:31] PHP Fatal error:  Using $this when not in object context in /home/termag/public_html/api/web_camera/index.php on line 2
+[13-Jan-2012 12:07:40] PHP Warning:  include(classes/SimpleImage.class.php) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/index.php on line 3
+[13-Jan-2012 12:07:40] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'classes/SimpleImage.class.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termag/public_html/api/web_camera/index.php on line 3
+[13-Jan-2012 12:07:40] PHP Fatal error:  Class 'SimpleImage' not found in /home/termag/public_html/api/web_camera/index.php on line 4
+[13-Jan-2012 12:08:57] PHP Warning:  getimagesize(media/kamera/cam.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/termag/public_html/classes/SimpleImage.class.php on line 30
+[13-Jan-2012 12:08:57] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/termag/public_html/classes/SimpleImage.class.php on line 46
+[13-Jan-2012 12:11:34] PHP Warning:  include(css/stule.css) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/index.php on line 2
+[13-Jan-2012 12:11:34] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening 'css/stule.css' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termag/public_html/api/web_camera/index.php on line 2
+[13-Jan-2012 12:11:48] PHP Warning:  include(../../css/stule.css) [<a href='function.include'>function.include</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/index.php on line 2
+[13-Jan-2012 12:11:48] PHP Warning:  include() [<a href='function.include'>function.include</a>]: Failed opening '../../css/stule.css' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termag/public_html/api/web_camera/index.php on line 2
+[14-Jan-2012 17:05:16] PHP Warning:  getimagesize(thumbcreate.php?src=media/kamera/cam.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 18
+[14-Jan-2012 17:05:16] PHP Warning:  imagecreatefromjpeg(thumbcreate.php?src=media/kamera/cam.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 32
+[14-Jan-2012 17:06:20] PHP Warning:  getimagesize(thumbcreate.php?src=../../media/kamera/cam.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 18
+[14-Jan-2012 17:06:20] PHP Warning:  imagecreatefromjpeg(thumbcreate.php?src=../../media/kamera/cam.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 32
+[14-Jan-2012 17:06:25] PHP Warning:  getimagesize(thumbcreate.php?src=../../media/kamera/cam.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 18
+[14-Jan-2012 17:06:25] PHP Warning:  imagecreatefromjpeg(thumbcreate.php?src=../../media/kamera/cam.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 32
+[14-Jan-2012 17:08:36] PHP Warning:  getimagesize(src=../../media/kamera/cam.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 18
+[14-Jan-2012 17:08:36] PHP Warning:  imagecreatefromjpeg(src=../../media/kamera/cam.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 32
+[14-Jan-2012 17:20:04] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: gd warning: product of memory allocation multiplication would exceed INT_MAX, failing operation gracefully
+ in /home/termag/public_html/api/web_camera/ClassCrop.php on line 38
+[14-Jan-2012 17:20:04] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 39
+[14-Jan-2012 17:20:04] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/termag/public_html/api/web_camera/ClassCrop.php:38) in /home/termag/public_html/api/web_camera/ClassCrop.php on line 45
+[14-Jan-2012 17:20:04] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 46
+[14-Jan-2012 17:22:52] PHP Warning:  getimagesize(../../media/kamera/cam.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/termag/public_html/classes/SimpleImage.class.php on line 30
+[14-Jan-2012 17:22:52] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/termag/public_html/classes/SimpleImage.class.php on line 46
+[14-Jan-2012 17:22:52] PHP Warning:  getimagesize(../../media/kamera/cam.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 18
+[14-Jan-2012 17:22:52] PHP Warning:  imagecreatefromjpeg(../../media/kamera/cam.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 32
+[14-Jan-2012 17:24:45] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/termag/public_html/api/web_camera/ClassCrop.php on line 39
+[14-Jan-2012 17:24:45] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 40
+[14-Jan-2012 17:24:45] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/termag/public_html/api/web_camera/ClassCrop.php:39) in /home/termag/public_html/api/web_camera/ClassCrop.php on line 46
+[14-Jan-2012 17:24:45] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 47
+[14-Jan-2012 17:39:18] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 42
+[14-Jan-2012 17:39:18] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/termag/public_html/api/web_camera/ClassCrop.php:42) in /home/termag/public_html/api/web_camera/ClassCrop.php on line 48
+[14-Jan-2012 17:39:59] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 42
+[14-Jan-2012 17:39:59] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/termag/public_html/api/web_camera/ClassCrop.php:42) in /home/termag/public_html/api/web_camera/ClassCrop.php on line 48
+[14-Jan-2012 17:40:00] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 50
+[14-Jan-2012 17:58:34] PHP Warning:  file_put_contents(): supplied resource is not a valid stream resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 49
+[14-Jan-2012 17:59:28] PHP Warning:  file_put_contents(): supplied resource is not a valid stream resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 49
+[14-Jan-2012 18:00:17] PHP Warning:  file_put_contents(www.termaghotel.com/media/kamera/slika.jpg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 49
+[14-Jan-2012 18:00:19] PHP Warning:  file_put_contents(www.termaghotel.com/media/kamera/slika.jpg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 49
+[14-Jan-2012 18:12:32] PHP Warning:  file_put_contents(www.termaghotel.com/media/camera/cam.jpg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 49
+[14-Jan-2012 18:12:34] PHP Warning:  file_put_contents(www.termaghotel.com/media/camera/cam.jpg) [<a href='function.file-put-contents'>function.file-put-contents</a>]: failed to open stream: No such file or directory in /home/termag/public_html/api/web_camera/ClassCrop.php on line 49
+[14-Jan-2012 18:15:55] PHP Warning:  file_put_contents(): supplied resource is not a valid stream resource in /home/termag/public_html/api/web_camera/ClassCrop.php on line 49
+[14-Jan-2012 18:46:33] PHP Parse error:  syntax error, unexpected '<' in /home/termag/public_html/api/web_camera/index.php on line 31
+[14-Jan-2012 19:15:07] PHP Warning:  imagecreatetruecolor() [<a href='function.imagecreatetruecolor'>function.imagecreatetruecolor</a>]: Invalid image dimensions in /home/termag/public_html/classes/SimpleImage.class.php on line 99
+[14-Jan-2012 19:15:07] PHP Warning:  imagecopyresampled(): supplied argument is not a valid Image resource in /home/termag/public_html/classes/SimpleImage.class.php on line 100
+[14-Jan-2012 19:15:07] PHP Warning:  imagejpeg(): supplied argument is not a valid Image resource in /home/termag/public_html/classes/SimpleImage.class.php on line 46
+[14-Jan-2012 19:19:19] PHP Fatal error:  Class 'SimpleImage' not found in /home/termag/public_html/api/web_camera/index.php on line 4
+[15-Jan-2012 09:57:35] PHP Parse error:  syntax error, unexpected $end in /home/termag/public_html/api/web_camera/makeIframe.php on line 15
+[15-Jan-2012 09:58:08] PHP Parse error:  syntax error, unexpected ';' in /home/termag/public_html/api/web_camera/makeIframe.php on line 10
+[15-Jan-2012 10:01:03] PHP Warning:  getimagesize(../../media/kamera/cam.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/termag/public_html/classes/ClassCrop.php on line 19
+[15-Jan-2012 10:01:03] PHP Warning:  imagecreatefromjpeg(../../media/kamera/cam.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/termag/public_html/classes/ClassCrop.php on line 32
+[15-Jan-2012 10:01:39] PHP Warning:  getimagesize(../../media/kamera/cam.jpg) [<a href='function.getimagesize'>function.getimagesize</a>]: failed to open stream: No such file or directory in /home/termag/public_html/classes/ClassCrop.php on line 19
+[15-Jan-2012 10:01:39] PHP Warning:  imagecreatefromjpeg(../../media/kamera/cam.jpg) [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: failed to open stream: No such file or directory in /home/termag/public_html/classes/ClassCrop.php on line 32
+[15-Jan-2012 14:14:31] PHP Warning:  DOMDocument::load() [<a href='domdocument.load'>domdocument.load</a>]: I/O warning : failed to load external entity &quot;/home/termag/public_html/api/web_camera/employees.xml&quot; in /home/termag/public_html/api/web_camera/index.php on line 24
+[15-Jan-2012 14:22:02] PHP Fatal error:  Call to undefined method DOMElement::node_value() in /home/termag/public_html/api/web_camera/index.php on line 27
+[15-Jan-2012 14:24:11] PHP Fatal error:  Call to undefined method DOMNodeList::node_value() in /home/termag/public_html/api/web_camera/index.php on line 27
+[15-Jan-2012 14:25:15] PHP Catchable fatal error:  Object of class DOMElement could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:27:57] PHP Fatal error:  Call to undefined method DOMElement::node_value() in /home/termag/public_html/api/web_camera/index.php on line 27
+[15-Jan-2012 14:30:53] PHP Fatal error:  Call to a member function node_value() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 26
+[15-Jan-2012 14:32:04] PHP Fatal error:  Cannot access empty property in /home/termag/public_html/api/web_camera/index.php on line 26
+[15-Jan-2012 14:35:09] PHP Fatal error:  Call to a member function node_value() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 27
+[15-Jan-2012 14:35:53] PHP Fatal error:  Call to a member function item() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 27
+[15-Jan-2012 14:35:55] PHP Fatal error:  Call to a member function item() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 27
+[15-Jan-2012 14:37:49] PHP Fatal error:  Call to a member function item() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 27
+[15-Jan-2012 14:38:32] PHP Fatal error:  Call to a member function node_value() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 27
+[15-Jan-2012 14:39:03] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:39:14] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:39:24] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:40:55] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:41:08] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:41:12] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:41:14] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:42:35] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:43:18] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:45:31] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 41
+[15-Jan-2012 14:46:12] PHP Fatal error:  Call to undefined method DOMElement::node_value() in /home/termag/public_html/api/web_camera/index.php on line 26
+[15-Jan-2012 14:47:27] PHP Fatal error:  Call to undefined method DOMElement::nodeValue() in /home/termag/public_html/api/web_camera/index.php on line 26
+[15-Jan-2012 14:47:30] PHP Fatal error:  Call to undefined method DOMElement::nodeValue() in /home/termag/public_html/api/web_camera/index.php on line 26
+[15-Jan-2012 14:47:35] PHP Fatal error:  Call to undefined method DOMElement::nodeValue() in /home/termag/public_html/api/web_camera/index.php on line 26
+[15-Jan-2012 16:04:00] PHP Warning:  DOMDocument::save(text.xml) [<a href='domdocument.save'>domdocument.save</a>]: failed to open stream: Permission denied in /home/termag/public_html/api/web_camera/index.php on line 33
+[15-Jan-2012 16:19:35] PHP Catchable fatal error:  Argument 1 passed to DOMNode::replaceChild() must be an instance of DOMNode, null given in /home/termag/public_html/api/web_camera/index.php on line 30
+[15-Jan-2012 16:20:21] PHP Fatal error:  Uncaught exception 'DOMException' with message 'Not Found Error' in /home/termag/public_html/api/web_camera/index.php:30
+Stack trace:
+#0 /home/termag/public_html/api/web_camera/index.php(30): DOMNode->replaceChild(Object(DOMElement), Object(DOMElement))
+#1 {main}
+  thrown in /home/termag/public_html/api/web_camera/index.php on line 30
+[15-Jan-2012 16:27:05] PHP Fatal error:  Uncaught exception 'DOMException' with message 'Not Found Error' in /home/termag/public_html/api/web_camera/index.php:30
+Stack trace:
+#0 /home/termag/public_html/api/web_camera/index.php(30): DOMNode->replaceChild(Object(DOMElement), Object(DOMElement))
+#1 {main}
+  thrown in /home/termag/public_html/api/web_camera/index.php on line 30
+[15-Jan-2012 16:27:09] PHP Fatal error:  Uncaught exception 'DOMException' with message 'Not Found Error' in /home/termag/public_html/api/web_camera/index.php:30
+Stack trace:
+#0 /home/termag/public_html/api/web_camera/index.php(30): DOMNode->replaceChild(Object(DOMElement), Object(DOMElement))
+#1 {main}
+  thrown in /home/termag/public_html/api/web_camera/index.php on line 30
+[15-Jan-2012 16:30:30] PHP Fatal error:  Call to a member function appendChild() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 31
+[15-Jan-2012 16:31:47] PHP Fatal error:  Call to a member function createElement() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 16:41:15] PHP Warning:  DOMDocument::createElement() expects at least 1 parameter, 0 given in /home/termag/public_html/api/web_camera/index.php on line 31
+[15-Jan-2012 16:41:15] PHP Fatal error:  Call to a member function appendChild() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 16:45:32] PHP Fatal error:  Call to a member function createElement() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 16:52:20] PHP Fatal error:  Call to a member function createElement() on a non-object in /home/termag/public_html/api/web_camera/index.php on line 33
+[15-Jan-2012 16:52:48] PHP Fatal error:  Call to undefined method DOMElement::createElement() in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 16:54:04] PHP Fatal error:  Call to undefined method DOMNodeList::createElement() in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 16:58:50] PHP Fatal error:  Call to undefined method DOMNodeList::createElement() in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 17:01:30] PHP Fatal error:  Call to undefined method DOMNodeList::createElement() in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 17:02:13] PHP Fatal error:  Call to undefined method DOMNodeList::createElement() in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 17:03:55] PHP Fatal error:  Call to undefined method DOMNodeList::createElement() in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 17:11:37] PHP Fatal error:  Call to undefined method DOMNodeList::createElement() in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 17:16:48] PHP Fatal error:  Call to undefined method DOMNodeList::createElement() in /home/termag/public_html/api/web_camera/index.php on line 32
+[15-Jan-2012 17:17:31] PHP Catchable fatal error:  Object of class DOMNodeList could not be converted to string in /home/termag/public_html/api/web_camera/index.php on line 51
+[15-Jan-2012 17:45:02] PHP Catchable fatal error:  Argument 1 passed to DOMNode::replaceChild() must be an instance of DOMNode, null given in /home/termag/public_html/api/web_camera/index.php on line 36
+[17-Jan-2013 19:07:57] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/termag/public_html/classes/CropImage.class.php on line 32
+[17-Jan-2013 19:07:57] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '../../media/kamera/cam.jpg' is not a valid JPEG file in /home/termag/public_html/classes/CropImage.class.php on line 32
+[10-Feb-2013 17:39:14] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/termag/public_html/classes/CropImage.class.php on line 32
+[10-Feb-2013 17:39:14] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '../../media/kamera/cam.jpg' is not a valid JPEG file in /home/termag/public_html/classes/CropImage.class.php on line 32
+[15-Feb-2013 13:55:53] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: gd-jpeg: JPEG library reports unrecoverable error:  in /home/termag/public_html/classes/CropImage.class.php on line 32
+[15-Feb-2013 13:55:54] PHP Warning:  imagecreatefromjpeg() [<a href='function.imagecreatefromjpeg'>function.imagecreatefromjpeg</a>]: '../../media/kamera/cam.jpg' is not a valid JPEG file in /home/termag/public_html/classes/CropImage.class.php on line 32

@@ -1,0 +1,64 @@
+<?php
+/**
+ * @author H3LL80Y
+ * @copyright 2011
+ */
+?>
+
+<?php
+$grad = "Jahorina,+Republika+Srpska";
+$jezik = "hr";
+
+$URL = "http://www.google.com/ig/api?weather=".$grad."&hl=".$jezik."";
+$dataInISO = file_get_contents($URL) or die("Unable to load XML file!");
+$dataInUTF = mb_convert_encoding($dataInISO, "UTF-8", "ISO-8859-2"); //fix Google's API UTF-8 bug
+$xml = simplexml_load_string($dataInUTF); 
+$information = $xml->xpath("/xml_api_reply/weather/forecast_information");
+$current = $xml->xpath("/xml_api_reply/weather/current_conditions");
+$forecast_conditions = $xml->xpath("/xml_api_reply/weather/forecast_conditions");
+ 
+$iconData = str_replace("/ig/images/weather/", "/img/vrijeme_ikonice/",  $current[0]->icon['data']);
+$iconData = str_replace(".gif", ".png", $iconData);
+
+$i=0;
+?>
+
+<div class="vremenska_prognoza">
+        <div class="vrijeme_danas">
+            <div class="temperatura float_left">
+                <p class="trenutna_temperatura float_left"><?php echo $current[0]->temp_c['data'] ?>&deg;C</p>
+                <span class="image_holder_veliki float_right"><img class="ikonica_vrijeme_danas" src="<?php echo $iconData ?>"/></span>
+            </div>
+            <div class="ostali_uslovi float_right">
+                <ul>
+                    <li><?php echo $current[0]->condition['data'] ?></li>
+                    <li><?php echo $current[0]->humidity['data'] ?></li>
+                    <li><?php echo $current[0]->wind_condition['data'] ?></li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="vrijeme_narednih_dana clearfix"> 
+        <table>
+            <tr>
+            <?php foreach ($forecast_conditions as $forecast) :
+           	    $iconData2 = str_replace("/ig/images/weather/", "/img/vrijeme_ikonice/male/",  $forecast->icon['data']);
+                $iconData2 = str_replace(".gif", ".png", $iconData2); 
+                if($i==0) {
+                    $i++;
+                    continue;
+                    }
+                    ?>
+                    
+                <td class="uslovi">
+                    <div class="dan"><?php echo $forecast->day_of_week['data'];?></div>
+                    <span class="image_holder_mali"><img class="ikonica_vrijeme" src="<?php echo $iconData2 ?>" title="<?php echo $forecast->condition['data'] ?>"/></span>
+                    <div class="text_bottom">Od <?php echo $forecast->low['data'] ?>&deg;C do <?php echo $forecast->high['data'] ?>&deg;C &nbsp;</div>
+                </td>
+            <?php endforeach ?>
+            </tr>
+        </table>
+        </div>
+	       
+</div> <!-- kraj vremenska_prognoza -->
+

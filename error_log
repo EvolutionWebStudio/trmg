@@ -1,0 +1,121 @@
+[07-Feb-2012 20:07:24] PHP Warning:  require(/home/termagho/public_html/protected/config/main.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/termagho/public_html/yii/framework/base/CApplication.php on line 123
+[07-Feb-2012 20:07:24] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/termagho/public_html/protected/config/main.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termagho/public_html/yii/framework/base/CApplication.php on line 123
+[07-Feb-2012 20:07:24] PHP Warning:  require(/home/termagho/public_html/protected/config/main.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/termagho/public_html/yii/framework/base/CApplication.php on line 123
+[07-Feb-2012 20:07:24] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/termagho/public_html/protected/config/main.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termagho/public_html/yii/framework/base/CApplication.php on line 123
+[07-Feb-2012 20:07:25] PHP Warning:  require(/home/termagho/public_html/protected/config/main.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/termagho/public_html/yii/framework/base/CApplication.php on line 123
+[07-Feb-2012 20:07:25] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/termagho/public_html/protected/config/main.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termagho/public_html/yii/framework/base/CApplication.php on line 123
+[07-Feb-2012 20:07:25] PHP Warning:  require(/home/termagho/public_html/protected/config/main.php) [<a href='function.require'>function.require</a>]: failed to open stream: No such file or directory in /home/termagho/public_html/yii/framework/base/CApplication.php on line 123
+[07-Feb-2012 20:07:25] PHP Fatal error:  require() [<a href='function.require'>function.require</a>]: Failed opening required '/home/termagho/public_html/protected/config/main.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/termagho/public_html/yii/framework/base/CApplication.php on line 123
+[04-Jul-2012 22:33:03] PHP Parse error:  syntax error, unexpected $end in /home/termag/public_html/protected/controllers/TermagController.php on line 212
+[04-Jul-2012 22:33:05] PHP Parse error:  syntax error, unexpected $end in /home/termag/public_html/protected/controllers/TermagController.php on line 212
+[04-Jul-2012 22:33:07] PHP Parse error:  syntax error, unexpected $end in /home/termag/public_html/protected/controllers/TermagController.php on line 212
+[04-Jul-2012 22:36:51] PHP Parse error:  syntax error, unexpected $end in /home/termag/public_html/protected/controllers/TermagController.php on line 281
+[04-Jul-2012 22:38:57] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/termag/public_html/protected/controllers/TermagController.php on line 679
+[04-Jul-2012 22:38:57] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/termag/public_html/protected/controllers/TermagController.php on line 679
+[04-Jul-2012 22:38:58] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/termag/public_html/protected/controllers/TermagController.php on line 679
+[04-Jul-2012 22:38:58] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/termag/public_html/protected/controllers/TermagController.php on line 679
+[04-Jul-2012 22:39:10] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/termag/public_html/protected/controllers/TermagController.php on line 679
+[04-Jul-2012 22:39:13] PHP Parse error:  syntax error, unexpected '-', expecting '(' in /home/termag/public_html/protected/controllers/TermagController.php on line 679
+[27-Jul-2012 17:08:32] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/imagick.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/imagick.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Jul-2012 17:08:36] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/imagick.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/imagick.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[27-Jul-2012 17:08:53] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/imagick.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/imagick.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[07-Aug-2012 11:44:05] PHP Warning:  Unterminated comment starting line 120 in /home/termag/public_html/protected/controllers/TermagController.php on line 120
+[07-Aug-2012 11:44:05] PHP Fatal error:  fatal flex scanner internal error--end of buffer missed in /home/termag/public_html/protected/controllers/TermagController.php on line 120
+[07-Aug-2012 11:44:05] PHP Parse error:  syntax error, unexpected $end in /home/termag/public_html/protected/controllers/TermagController.php on line 741
+[05-Feb-2013 21:52:42] PHP Fatal error:  Cannot redeclare file_get_html() (previously declared in /home/termag/public_html/api/dom/simple_html_dom.php:70) in /home/termag/public_html/api/dom/simple_html_dom.php on line 85
+[05-Feb-2013 21:55:33] PHP Fatal error:  Cannot redeclare file_get_html() (previously declared in /home/termag/public_html/api/dom/simple_html_dom.php:70) in /home/termag/public_html/api/dom/simple_html_dom.php on line 85
+[05-Feb-2013 21:58:32] PHP Fatal error:  Cannot redeclare file_get_html() (previously declared in /home/termag/public_html/api/dom/simple_html_dom.php:70) in /home/termag/public_html/api/dom/simple_html_dom.php on line 85
+[05-Feb-2013 21:59:07] PHP Fatal error:  Cannot redeclare file_get_html() (previously declared in /home/termag/public_html/api/dom/simple_html_dom.php:70) in /home/termag/public_html/api/dom/simple_html_dom.php on line 85
+[05-Feb-2013 21:59:09] PHP Fatal error:  Cannot redeclare file_get_html() (previously declared in /home/termag/public_html/api/dom/simple_html_dom.php:70) in /home/termag/public_html/api/dom/simple_html_dom.php on line 85
+[05-Feb-2013 21:59:11] PHP Fatal error:  Cannot redeclare file_get_html() (previously declared in /home/termag/public_html/api/dom/simple_html_dom.php:70) in /home/termag/public_html/api/dom/simple_html_dom.php on line 85
+[05-Feb-2013 21:59:26] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 20
+[05-Feb-2013 21:59:50] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 20
+[05-Feb-2013 22:01:05] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 14
+[05-Feb-2013 22:01:27] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 14
+[05-Feb-2013 22:13:09] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 14
+[05-Feb-2013 22:14:05] PHP Fatal error:  Call to undefined function  file_get_html() in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 5
+[05-Feb-2013 22:52:24] PHP Parse error:  syntax error, unexpected '.' in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 16
+[05-Feb-2013 23:37:01] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 15
+[05-Feb-2013 23:39:25] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 16
+[05-Feb-2013 23:39:31] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 16
+[06-Feb-2013 00:20:28] PHP Fatal error:  Call to undefined method simple_html_dom_node::_get() in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 21
+[06-Feb-2013 00:20:58] PHP Fatal error:  Call to undefined method simple_html_dom::_get() in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 21
+[06-Feb-2013 00:34:03] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 17
+[06-Feb-2013 00:34:12] PHP Fatal error:  Call to a member function find() on a non-object in /home/termag/public_html/protected/views/termag/kamera-panorama.php on line 17
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: ffmpeg: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: ssh2: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Deprecated:  Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  date() [<a href='function.date'>function.date</a>]: It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected 'Europe/Berlin' for 'CET/1.0/no DST' instead in /home/termag/public_html/yii/framework/views/exception.php on line 217
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: PDO: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: pdo_sqlite: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20060613/sqlite.so: undefined symbol: third_arg_force_ref in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: pdo_mysql: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: ffmpeg: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Warning:  PHP Startup: ssh2: Unable to initialize module
+Module compiled with module API=20060613
+PHP    compiled with module API=20090626
+These options need to match
+ in Unknown on line 0
+[06-Mar-2013 19:23:17 Europe/Berlin] PHP Deprecated:  Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater in Unknown on line 0
+[06-Mar-2013 19:24:47 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:24:47 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:24:53 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:24:53 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:02 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:02 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:03 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:03 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:27 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:27 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:33 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:33 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:40 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:25:40 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:26:36 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:26:36 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:26:44 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:26:44 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:26:50 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:26:50 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:26:55 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ffmpeg.so: cannot open shared object file: No such file or directory in Unknown on line 0
+[06-Mar-2013 19:26:55 Europe/Berlin] PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so' - /usr/local/lib/php/extensions/no-debug-non-zts-20090626/ssh2.so: cannot open shared object file: No such file or directory in Unknown on line 0
