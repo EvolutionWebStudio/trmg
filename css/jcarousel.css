@@ -1,0 +1,166 @@
+.jcarousel-skin-tango .jcarousel-container {
+	background: none;
+	width: 820px;
+	padding: 5px 40px;
+	position: relative;
+	display: block;
+}
+
+.jcarousel-list {
+	overflow: hidden;
+	position: relative;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+	left: -850px;
+	width: 1205px;
+
+}
+
+.jcarousel-clip {
+	overflow: hidden;
+	width: 820px;
+	height: 150px;
+	position: relative;
+}
+
+.jcarousel-item {
+	position: relative;
+	width: 260px;
+	height: 148px;
+	margin-left: 0;
+	margin-right: 10px;
+	float: left;
+	list-style: none outside none;
+	
+	border: 1px solid #666;
+}
+
+.jcarousel-item a:hover {
+	color: #fff!important;
+}
+
+.jcarousel-item-text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 260px;
+	height: 36px;
+}
+
+/* porodicni vikend */
+.jcarousel-item-text-1 {
+	background: rgba(56, 30, 16, 0.6);
+}
+
+/* relax vikend */
+.jcarousel-item-text-2 {
+	background: rgba(195, 107, 46, 0.6);
+}
+
+/* romanticni vikend */
+.jcarousel-item-text-3 {
+	background: rgba(166, 33, 1, 0.6);
+}
+
+/* antistres vikend */
+.jcarousel-item-text-4 {
+	background: rgba(0, 92, 32, 0.6);
+}
+
+/* extreme vikend */
+.jcarousel-item-text-5 {
+	background: rgba(195, 107, 46, 0.6);
+}
+
+/* zivot je igra */
+.jcarousel-item-text-6 {
+	background: rgba(0, 118, 158, 0.6);
+}
+
+/* seminari */
+.jcarousel-item-text-7 {
+	background: rgba(53, 28, 10, 0.6);
+}
+
+/* team building */
+.jcarousel-item-text-8 {
+	background: rgba(10, 10, 10, 0.6);
+}
+
+/* ljeto na jahorini */
+.jcarousel-item-text-9 {
+	background: rgba(0, 178, 38, 0.6); 
+}
+
+.jcarousel-item-text h2 {
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 16px;
+	
+	font-weight: normal;
+}
+
+.jcarousel-item-text p {
+	overflow: hidden;
+	padding: 10px;
+	text-align: left;
+}
+
+.jcarousel-item-horizontal {
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+.jcarousel-item-placeholder {
+	background: #fff;
+	color: #000;
+}
+
+.jcarousel-skin-tango img {
+	width: 260px;
+	height: 148px;
+}
+
+/**
+ *  Dugmad
+ */
+.jcarousel-next-horizontal {
+	position: absolute;
+	top: 50px;
+	right: 5px;
+	width: 26px;
+	height: 48px;
+	cursor: pointer;
+	background: transparent url(../img/naprijed.png) no-repeat 0 0;
+	opacity: 0.3;
+}
+
+
+.jcarousel-next-horizontal:hover, .jcarousel-next-horizontal:focus {
+	opacity: 0.6;
+}
+
+.jcarousel-next-horizontal:active {
+	opacity: 1;
+}
+
+.jcarousel-skin-tango .jcarousel-prev-horizontal {
+	position: absolute;
+	top: 50px;
+	left: 5px;
+	width: 26px;
+	height: 48px;
+	cursor: pointer;
+	background: transparent url(../img/nazad.png) no-repeat 0 0;
+	opacity: 0.3;
+}
+
+.jcarousel-prev-horizontal:hover, .jcarousel-prev-horizontal:focus {
+	opacity: 0.6;
+}
+
+.jcarousel-prev-horizontal:active {
+	opacity: 1;
+}

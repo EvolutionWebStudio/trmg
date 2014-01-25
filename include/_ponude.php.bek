@@ -1,0 +1,88 @@
+	<div class="ponude clearfix">
+		
+		<div class="ponuda_lijevo">
+			<h1><?php echo $this->langArray['planirajte_svoj_boravak']; ?> </h1>
+			<p><?php echo $this->langArray['pozovite_broj']; ?>
+			 <?php echo CHtml::link($this->langArray['rezervisite'] ." ". $this->langArray['online'],array('termag/rezervacija')); ?> </p>
+			
+			
+			<form id="sform" name="sform" method="post" action="https://www.myfidelio.net/webui/AvailabilitySearch.aspx?chain=IQ&property=CTHT" target="_self">
+    		<table class="booking_widget">
+    		<tbody>
+        		<tr>
+		            <td>
+		                <label for="arrival"><?php echo $this->langArray['dolazak']; ?></label>
+		            </td>
+		            <td>
+		                <input id="arrival" name="arrival" type="edit" value="">
+		            </td>
+		            <td>
+		                <label for="nights"><?php echo $this->langArray['nocenje']; ?></label>
+		            </td>
+		            <td>
+		                <input id="nights" name="nights" type="edit" value="">
+		            </td>
+		            <td>
+		                <label for="adults"><?php echo $this->langArray['odrasli']; ?></label>
+		            </td>
+		            <td>
+		                <input id="adults" name="adults" type="edit" value="">
+		            </td>
+		            
+		        </tr>
+		        <tr>
+		            <td>
+		                &nbsp;
+		            </td>
+		            <td>
+		            	&nbsp;
+		            </td>
+		            <td>
+		                <label for="children"><?php echo $this->langArray['djece']; ?></label>
+		            </td>
+		            <td>
+		                <input id="children" name="children" type="edit" value="">
+		            </td>
+		            <td colspan="2">
+		                <input id="style" name="style" type="hidden">
+		                <input id="language" name="language" type="hidden" value="en-GB">
+		                <input id="submitter" name="submitter" type="submit" value="<?php echo $this->langArray['rezervisite_booking']; ?>">
+		            </td>
+        		</tr>
+	    	</tbody>
+		    </table>
+			</form>
+			
+		</div> <!-- kraj ponuda_lijevo -->
+		
+		<div class="ponuda_sredina">
+			<h1><?php echo $this->langArray['ponuda_sredina_naslov']; ?></h1> 
+			<p><?php echo $this->langArray['ponuda_sredina_text']; ?> <?php echo CHtml::link($this->langArray['porodicni_rezervacije'].'<span class="read_more"> &gt; </span>',array('termag/seminari')); ?></p>
+		</div> <!-- kraj ponuda_sredina -->
+		
+		<div class="ponuda_desno">
+		<table>
+			<tr><td style="padding: 0 5px 0 0;"><h1><?php echo $this->langArray['naslov_koliba']; ?><p><?php echo $this->langArray['tekst_koliba']; ?> <?php echo CHtml::link('<span class="read_more"> &gt; </span>',array('termag/porodicni_vikend')); ?></p></h1></td>
+			    
+				<td id="koliba_slider" rowspan="2">
+				
+				<?php 
+				$imagesPathKoliba = '/media/images/slider/vikend/';
+                $linkovi = array(1=>"porodicni_vikend", 2=>"relax_vikend", 3=>"romanticni_vikend", 4=>"antistress_vikend", 5=>"extreme_vikend", 6=>"zivot_je_igra");
+				for($i=1; $i<7; $i++) 
+			    {
+								
+				echo CHtml::link('<div class=""> <img src="'.$imagesPathKoliba.$i.'.jpg" alt="" /></div>',array('termag/'.$linkovi[$i])); 
+				
+				}
+				
+				?>
+				
+				</td>
+				
+			</tr>
+            
+		</table>
+		</div> <!-- kraj ponuda_desno -->
+	
+	</div> <!-- kraj ponude -->

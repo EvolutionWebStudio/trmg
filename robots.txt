@@ -1,0 +1,13 @@
+User-agent: *
+
+Disallow: /protected
+Disallow: /assets
+Disallow: /css
+Disallow: /js
+Disallow: /mail
+Disallow: /themes
+Disallow: /yii
+Disallow: /development-bundle
+Disallow: /flash
+
+Sitemap: http://termaghotel.com/sitemap.xml
