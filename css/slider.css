@@ -1,140 +1,140 @@
-#slider_wrapper{
-    width:920px;
-	position: relative;
-
-    margin: 0; 
-    padding:0;
-	margin-top: 0;
-}
-
-#bigPic{
-	width:920px;
-	height:455px;
-	padding:0;
-	border: none;
-	background-color:#FFF;
-	margin-bottom:10px;
-	
-	position: relative;
-}
-#bigPic > div{
-	width:920px;
-	height:455px;
-	position:absolute;
-	display:none;
-	overflow: hidden;
-}
-
-#bigPic div.natpis_slider {
-	width: 580px;
-	height: 80px;
-	padding: 10px 10px 10px 330px;
-	position: absolute;
-	top: 355px;
-	left: 0;
-	
-	background: url('../img/crna-pozadina.png');
-	font-family: Helvetica, "Arial Narrow", Arial, sans;
-	text-align: right;
-	
- 
-}
-
-	div.promotivna_slika{
-		display: none;
-		position: absolute;
-		
-	}
-/*
-	div#bigPic div:nth-child(2) div.promotivna_slika {
-		width: 180px;
-		height: 170px;
-		display: block;
-		top: 299px;
-		left: 750px;
-		
-		background: url('/media/images/slider/promo/promotivna-vaskrs-jaje.png') no-repeat;
-	}
-	
-	div#bigPic div:nth-child(3) div.promotivna_slika {
-		width: 208px;
-		height: 170px;
-		display: block;
-		top: 299px;
-		left: 710px;
-		
-		background: url('/media/images/slider/promo/promotivna-vaskrs-korpa.png') no-repeat;
-	}
-	
-	div#bigPic div:nth-child(2) div.natpis_slider {
-		padding: 10px 190px 10px 150px;
-		
-		background: url('../img/zlatna-pozadina.png');
-	}
-	
-	div#bigPic div:nth-child(3) div.natpis_slider {
-		padding: 10px 220px 10px 120px;
-		
-		background: url('../img/zlatna-pozadina.png');
-	}*/
-
-	#bigPic div.natpis_slider h3 {
-        font-weight: normal!important;
-        font-size: 18px;
-    }
-
-    #bigPic div.natpis_slider p {
-        font-size: 13px;
-        line-height: 18px;
-    }
-
-#bigPic span#loader {
-    width: 100%;
-    height:100%;
-    display:block;
-    background: url('../img/ajax-loader.gif') center center no-repeat;
-}
-
-/* KOLIBA SLIDER */
-/*
-#koliba_slider{
-    width:147px;
-	position: relative;
-
-    margin: 0; 
-    padding:0;
-	margin-top: 0;
-}
-*/
-#koliba_slider{
-	width:148px;
-	height:113px;
-	padding:0;
-	border: none;
-	background-color:#FFF;
-	margin-bottom:10px;
-	
-	position: relative;
-}
-#koliba_slider > a > div{
-	width:148px;
-	height:113px;
-	position:absolute; 
-	display:none;
-}
-.slajder-brojaca{
-    position: absolute;
-    z-index: 3;
-}
-/*
-#koliba_bigPic span#koliba_loader {
-    width: 100%;
-    height:100%;
-    display:block;
-    background: url('../img/ajax-loader.gif') center center no-repeat;
-}*/
-
-.slide h1 {
-	
-	font-size: 22px;
-}
+#slider_wrapper{
+    width:920px;
+	position: relative;
+
+    margin: 0; 
+    padding:0;
+	margin-top: 0;
+}
+
+#bigPic{
+	width:920px;
+	height:455px;
+	padding:0;
+	border: none;
+	background-color:#FFF;
+	margin-bottom:10px;
+	
+	position: relative;
+}
+#bigPic > div{
+	width:920px;
+	height:455px;
+	position:absolute;
+	display:none;
+	overflow: hidden;
+}
+
+#bigPic div.natpis_slider {
+	width: 580px;
+	height: 80px;
+	padding: 10px 10px 10px 330px;
+	position: absolute;
+	top: 355px;
+	left: 0;
+	
+	background: url('../img/crna-pozadina.png');
+	font-family: Helvetica, "Arial Narrow", Arial, sans;
+	text-align: right;
+	
+ 
+}
+
+	div.promotivna_slika{
+		display: none;
+		position: absolute;
+		
+	}
+/*
+	div#bigPic div:nth-child(2) div.promotivna_slika {
+		width: 180px;
+		height: 170px;
+		display: block;
+		top: 299px;
+		left: 750px;
+		
+		background: url('/media/images/slider/promo/promotivna-vaskrs-jaje.png') no-repeat;
+	}
+	
+	div#bigPic div:nth-child(3) div.promotivna_slika {
+		width: 208px;
+		height: 170px;
+		display: block;
+		top: 299px;
+		left: 710px;
+		
+		background: url('/media/images/slider/promo/promotivna-vaskrs-korpa.png') no-repeat;
+	}
+	
+	div#bigPic div:nth-child(2) div.natpis_slider {
+		padding: 10px 190px 10px 150px;
+		
+		background: url('../img/zlatna-pozadina.png');
+	}
+	
+	div#bigPic div:nth-child(3) div.natpis_slider {
+		padding: 10px 220px 10px 120px;
+		
+		background: url('../img/zlatna-pozadina.png');
+	}*/
+
+	#bigPic div.natpis_slider h3 {
+        font-weight: normal!important;
+        font-size: 18px;
+    }
+
+    #bigPic div.natpis_slider p {
+        font-size: 13px;
+        line-height: 18px;
+    }
+
+#bigPic span#loader {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: url('../img/ajax-loader.gif') center center no-repeat;
+}
+
+/* KOLIBA SLIDER */
+/*
+#koliba_slider{
+    width:147px;
+	position: relative;
+
+    margin: 0; 
+    padding:0;
+	margin-top: 0;
+}
+*/
+#koliba_slider{
+	width:148px;
+	height:113px;
+	padding:0;
+	border: none;
+	background-color:#FFF;
+	margin-bottom:10px;
+	
+	position: relative;
+}
+#koliba_slider > a > div{
+	width:148px;
+	height:113px;
+	position:absolute; 
+	display:none;
+}
+.slajder-brojaca{
+    position: absolute;
+    z-index: 3;
+}
+/*
+#koliba_bigPic span#koliba_loader {
+    width: 100%;
+    height:100%;
+    display:block;
+    background: url('../img/ajax-loader.gif') center center no-repeat;
+}*/
+
+.slide h1 {
+	
+	font-size: 22px;
+}

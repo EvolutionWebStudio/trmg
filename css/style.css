@@ -267,7 +267,7 @@ body {
 	width: 920px;
 	min-height: 500px;
 	margin: auto;
-	padding: 10px 30px;
+	padding: 10px 30px 0;
 	
 	/* background: rgba(38,23,17,0.7); */
 	background: rgba(17, 6, 1, 0.6);
@@ -795,9 +795,32 @@ div.newsletter-signup div.newsletter-form p.newsletter-opis {
     
 }
 
-    
-    
+.bedzevi {
+    width: 920px;
+    margin: auto;
+    font-size: 12px;
+    /*background: rgba(53, 28, 10, 0.7);*/
+}
+.bedzevi > div {
+    width: 235px;
+    float: left;
+    display: inline-block;
+    padding: 10px 10px 10px 0;
+    font-size: 10px;
+}
+    .bedzevi .venere {
+          width: 350px;
+      }
+    .bedzevi .ski-skola {
+        width: 305px;
+    }
+    .bedzevi img {
+        float: left;
+        margin-right: 10px;
+    }
+    .bedzevi p {
 
+    }
 
 
 /* FOOTER */

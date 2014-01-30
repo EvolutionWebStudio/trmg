@@ -76,8 +76,8 @@ return array(
 			'class'=>'CDbConnection',
 			'connectionString' => 'mysql:host=localhost;dbname=termag_glavna',
 			'emulatePrepare' => true,
-			'username' => 'termag_glavni',
-			'password' => 'anti-rezonanca',
+			'username' => 'root',
+			'password' => '',
 			'charset' => 'utf8',
 			
 		),

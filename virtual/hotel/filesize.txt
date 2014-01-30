@@ -1,0 +1,90 @@
+autorun.inf|36
+config_Hotel.bin|63967
+Hotel.html|1136
+images_Hotel.zip|144389
+index_Hotel.html|1641
+lastthumbnail_Hotel.zip|302858
+map\resources\hotel_13inn.swf|8446
+map\resources\movieclose.swf|2695
+map\resources\snow.swf|1533
+map\resources\resources_Hotel.zip|512342
+map\resources\scene\10.jpg|942092
+map\resources\scene\10.zip|4432
+map\resources\scene\11.jpg|799764
+map\resources\scene\11.zip|5846
+map\resources\scene\12.jpg|849272
+map\resources\scene\12.zip|7180
+map\resources\scene\13.jpg|878539
+map\resources\scene\13.zip|7006
+map\resources\scene\14.jpg|815676
+map\resources\scene\14.zip|9070
+map\resources\scene\15.jpg|867507
+map\resources\scene\15.zip|1858
+map\resources\scene\16.jpg|750498
+map\resources\scene\16.zip|3291
+map\resources\scene\17.jpg|1107157
+map\resources\scene\17.zip|1858
+map\resources\scene\18.jpg|1150719
+map\resources\scene\18.zip|5893
+map\resources\scene\19.jpg|673680
+map\resources\scene\19.zip|9968
+map\resources\scene\1_1.jpg|865815
+map\resources\scene\1_1.zip|8020
+map\resources\scene\1_11.jpg|783170
+map\resources\scene\1_11.zip|7245
+map\resources\scene\1_12.jpg|957328
+map\resources\scene\1_12.zip|5490
+map\resources\scene\1_2.jpg|786172
+map\resources\scene\1_2.zip|7050
+map\resources\scene\1_6.jpg|669283
+map\resources\scene\1_6.zip|12911
+map\resources\scene\1_vani 4.jpg|841723
+map\resources\scene\1_vani 4.zip|10569
+map\resources\scene\20.jpg|892335
+map\resources\scene\20.zip|4432
+map\resources\scene\21.jpg|807218
+map\resources\scene\21.zip|1858
+map\resources\scene\22.jpg|662300
+map\resources\scene\22.zip|1858
+map\resources\scene\23.jpg|727947
+map\resources\scene\23.zip|16569
+map\resources\scene\24.jpg|1120271
+map\resources\scene\24.zip|1858
+map\resources\scene\25.jpg|862316
+map\resources\scene\25.zip|12507
+map\resources\scene\26.jpg|994509
+map\resources\scene\26.zip|3145
+map\resources\scene\27.jpg|963664
+map\resources\scene\27.zip|6729
+map\resources\scene\28.jpg|861035
+map\resources\scene\28.zip|6086
+map\resources\scene\29.jpg|827751
+map\resources\scene\29.zip|4943
+map\resources\scene\3.jpg|741208
+map\resources\scene\3.zip|3125
+map\resources\scene\30.jpg|1017889
+map\resources\scene\30.zip|3145
+map\resources\scene\31.jpg|910522
+map\resources\scene\31.zip|1858
+map\resources\scene\32.jpg|910410
+map\resources\scene\32.zip|1858
+map\resources\scene\4.jpg|934259
+map\resources\scene\4.zip|3125
+map\resources\scene\5.jpg|732902
+map\resources\scene\5.zip|3125
+map\resources\scene\6.jpg|828041
+map\resources\scene\6.zip|3125
+map\resources\scene\7.jpg|844816
+map\resources\scene\7.zip|1846
+map\resources\scene\8.jpg|780784
+map\resources\scene\8.zip|6962
+map\resources\scene\9.jpg|847155
+map\resources\scene\9.zip|3125
+map\resources\scene\vani 1.jpg|790814
+map\resources\scene\vani 1.zip|9297
+map\resources\scene\vani 2.jpg|940787
+map\resources\scene\vani 2.zip|13375
+map\resources\scene\vani 3.jpg|847164
+map\resources\scene\vani 3.zip|22397
+map\resources\scene\sounds\swfobject.js|6880
+map\resources\scene\sounds\twviewer.swf|309179

@@ -1,0 +1,13 @@
+<?php 
+
+
+?>
+ 
+
+<div class="rezervacija_wrapper">
+
+    <iframe class="rezervacija_frame" src="https://www.myfidelio.net/webui/AvailabilitySearch.aspx?chain=IQ&property=CTHT" > </iframe>
+
+
+</div> <!-- kraj rezervacija_wrapper -->
+

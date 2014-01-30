@@ -4,7 +4,7 @@
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @link http://www.yiiframework.com/
- * @copyright 2008-2013 Yii Software LLC
+ * @copyright Copyright &copy; 2008-2011 Yii Software LLC
  * @license http://www.yiiframework.com/license/
  */
 
@@ -21,6 +21,7 @@ require_once(Yii::getPathOfAlias('system.vendors.TextHighlighter.Text.Highlighte
  * to true, the highlighted result may be shown with line numbers.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
+ * @version $Id: CTextHighlighter.php 2799 2011-01-01 19:31:13Z qiang.xue $
  * @package system.web.widgets
  * @since 1.0
  */
@@ -104,6 +105,7 @@ class CTextHighlighter extends COutputProcessor
 
 	/**
 	 * Registers the needed CSS and JavaScript.
+	 * @since 1.0.1
 	 */
 	public function registerClientScript()
 	{
@@ -114,6 +116,7 @@ class CTextHighlighter extends COutputProcessor
 	/**
 	 * Registers the needed CSS file.
 	 * @param string $url the CSS URL. If null, a default CSS URL will be used.
+	 * @since 1.0.2
 	 */
 	public static function registerCssFile($url=null)
 	{

@@ -4,7 +4,7 @@
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @link http://www.yiiframework.com/
- * @copyright 2008-2013 Yii Software LLC
+ * @copyright Copyright &copy; 2008-2011 Yii Software LLC
  * @license http://www.yiiframework.com/license/
  */
 
@@ -22,10 +22,8 @@
  * foreach($stack as $item) ...
  * </pre>
  *
- * @property Iterator $iterator An iterator for traversing the items in the stack.
- * @property integer $count The number of items in the stack.
- *
  * @author Qiang Xue <qiang.xue@gmail.com>
+ * @version $Id: CStack.php 3001 2011-02-24 16:42:44Z alexander.makarow $
  * @package system.collections
  * @since 1.0
  */
@@ -79,7 +77,7 @@ class CStack extends CComponent implements IteratorAggregate,Countable
 				++$this->_c;
 			}
 		}
-		elseif($data!==null)
+		else if($data!==null)
 			throw new CException(Yii::t('yii','Stack data must be an array or an object implementing Traversable.'));
 	}
 
@@ -138,7 +136,7 @@ class CStack extends CComponent implements IteratorAggregate,Countable
 	public function push($item)
 	{
 		++$this->_c;
-		$this->_d[]=$item;
+		array_push($this->_d,$item);
 	}
 
 	/**

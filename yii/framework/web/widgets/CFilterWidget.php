@@ -4,7 +4,7 @@
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @link http://www.yiiframework.com/
- * @copyright 2008-2013 Yii Software LLC
+ * @copyright Copyright &copy; 2008-2011 Yii Software LLC
  * @license http://www.yiiframework.com/license/
  */
 
@@ -20,9 +20,8 @@
  *
  * CFilterWidget provides all properties and methods of {@link CWidget} and {@link CFilter}.
  *
- * @property boolean $isFilter Whether this widget is used as a filter.
- *
  * @author Qiang Xue <qiang.xue@gmail.com>
+ * @version $Id: CFilterWidget.php 2799 2011-01-01 19:31:13Z qiang.xue $
  * @package system.web.widgets
  * @since 1.0
  */
@@ -49,6 +48,7 @@ class CFilterWidget extends CWidget implements IFilter
 
 	/**
 	 * @return boolean whether this widget is used as a filter.
+	 * @since 1.0.4
 	 */
 	public function getIsFilter()
 	{

@@ -163,7 +163,7 @@ class TermagController extends Controller
     {
         
         $this->linija = Slajderi::model()->findAllByAttributes(array('jezik'=>Yii::app()->session["lang"]),array('order'=>'id'));
-        $this->nalovSlajderi = $red[0] -> naslov;
+        $this->nalovSlajderi = $this->linija[0] -> naslov;
         
         
     }

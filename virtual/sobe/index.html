@@ -1,0 +1,32 @@
+
+ <script type="text/javascript" src="swfobject.js"></script> 
+ <div id="flashcontent"> 
+ To view virtual tour properly, Flash Player 9.0.28 or later version is needed. 
+ Please download the latest version of <a href="http://www.adobe.com/go/getflashplayer" target="_blank">Flash Player</a> and install it on your computer.
+ </div> 
+ 
+ <script type="text/javascript"> 
+ // <![CDATA[ 
+ var so = new SWFObject("twviewer.swf", "sotester", "920", "640", "9.0.0", "#351C0A"); 
+ so.addParam("allowNetworking", "all"); 
+ so.addParam("allowScriptAccess", "always"); 
+ so.addParam("allowFullScreen", "true"); 
+ so.addParam("scale", "noscale");
+ so.addParam("wmode", "opaque");
+ //<!-%% Share Mode %%->
+ so.addVariable("lwImg", "resources/termag novi_13inn.swf"); 
+ so.addVariable("lwBgColor", "255,53,28,10"); 
+ so.addVariable("lwBarBgColor", "255,95,99,102"); 
+ so.addVariable("lwBarColor", "255,255,204,0"); 
+ so.addVariable("lwBarBounds", "143,437,640,17"); 
+ so.addVariable("lwlocation", "0"); 
+ so.addVariable("lwShowLoadingPercent", "true"); 
+ so.addVariable("lwTextColor", "255,0,0,0"); 
+ so.addVariable("iniFile", "config_Termag novi.bin"); 
+ so.addVariable("progressType", "0"); 
+ so.addVariable("swfFile", ""); 
+ so.addVariable("percentType", "0"); 
+ so.addVariable("sizeFile", "filesize.txt");
+ so.write("flashcontent"); 
+ // ]]> 
+ </script> 

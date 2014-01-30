@@ -1,4 +1,4 @@
-<script type="text/javascript">
+﻿<script type="text/javascript">
 /*<![CDATA[*/
 if(typeof(console)=='object') {
     console.group("Profiling Summary Report");

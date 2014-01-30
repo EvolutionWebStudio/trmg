@@ -4,7 +4,7 @@
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
  * @link http://www.yiiframework.com/
- * @copyright 2008-2013 Yii Software LLC
+ * @copyright Copyright &copy; 2008-2011 Yii Software LLC
  * @license http://www.yiiframework.com/license/
  */
 
@@ -22,6 +22,7 @@
  * {@link catalog} property, which defaults to 'messages'.
  *
  * @author Qiang Xue <qiang.xue@gmail.com>
+ * @version $Id: CGettextMessageSource.php 2798 2011-01-01 19:29:03Z qiang.xue $
  * @package system.i18n
  * @since 1.0
  */
@@ -40,6 +41,7 @@ class CGettextMessageSource extends CMessageSource
 	 * @var string the ID of the cache application component that is used to cache the messages.
 	 * Defaults to 'cache' which refers to the primary cache application component.
 	 * Set this property to false if you want to disable caching the messages.
+	 * @since 1.0.10
 	 */
 	public $cacheID='cache';
 	/**
@@ -91,7 +93,7 @@ class CGettextMessageSource extends CMessageSource
 
 		if ($this->cachingDuration > 0 && $this->cacheID!==false && ($cache=Yii::app()->getComponent($this->cacheID))!==null)
 		{
-			$key = self::CACHE_KEY_PREFIX . $messageFile . "." . $category;
+			$key = self::CACHE_KEY_PREFIX . $messageFile;
 			if (($data=$cache->get($key)) !== false)
 				return unserialize($data);
 		}
