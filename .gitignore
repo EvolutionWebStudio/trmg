@@ -1,0 +1,9 @@
+/index.php
+/assets
+/runtime
+/protected/runtime
+/.idea
+*.sublime-project
+*.sublime-workspace
+/backup
+/virtual
